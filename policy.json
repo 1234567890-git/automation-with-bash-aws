@@ -1,0 +1,33 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "AllowEC2Describe",
+        "Effect": "Allow",
+        "Action": [
+          "ec2:Describe*"
+        ],
+        "Resource": "*"
+      },
+      {
+        "Sid": "AllowS3ReadOnly",
+        "Effect": "Allow",
+        "Action": [
+          "s3:Get*",
+          "s3:List*"
+        ],
+        "Resource": "*"
+      },
+      {
+        "Sid": "AllowViewCloudWatchLogs",
+        "Effect": "Allow",
+        "Action": [
+          "logs:DescribeLogGroups",
+          "logs:GetLogEvents",
+          "logs:FilterLogEvents"
+        ],
+        "Resource": "*"
+      }
+    ]
+  }
+  
