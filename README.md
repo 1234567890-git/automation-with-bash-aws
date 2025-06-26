@@ -15,12 +15,12 @@ This project provides a set of Bash scripts to automate the lifecycle of **tempo
 
 ##  Project Structure
 iam-user-automation/
-├── users.csv # Input file with usernames and emails
-├── policy.json # Custom IAM policy document
-├── create_users.sh # Script to create IAM users and email credentials
-├── cleanup_users.sh # Script to delete expired IAM users and their credentials
-├── create_users.log # Logs generated during user creation
-├── cleanup_users.log # Logs generated during cleanup
+ ├── users.csv # Input file with usernames and emails
+ ├── policy.json # Custom IAM policy document
+ ├── create_users.sh # Script to create IAM users and email credentials
+ ├── cleanup_users.sh # Script to delete expired IAM users and their credentials
+ ├── create_users.log # Logs generated during user creation
+ ├── cleanup_users.log # Logs generated during cleanup
 
 
 ---
