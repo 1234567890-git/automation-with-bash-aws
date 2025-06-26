@@ -73,7 +73,7 @@ A verified sender email in SES
 Production SES access or verified recipients
 Update create_users.sh with your sender domain:
 --from "admin@yourdomain.com"
-
+-------------------------------------------------------------------------------
 Notes
 Temporary users are tagged with Purpose=temp-user and ExpiryDate=YYYY-MM-DD.
 
