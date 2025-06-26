@@ -1,8 +1,6 @@
 # automation-with-bash-aws
 # IAM User Management Automation (Bash + AWS CLI)
 
-#  IAM User Management Automation (Bash + AWS CLI)
-
 This project provides a set of Bash scripts to automate the lifecycle of **temporary IAM users** in AWS, including:
 
 - Creating IAM users from a CSV file
