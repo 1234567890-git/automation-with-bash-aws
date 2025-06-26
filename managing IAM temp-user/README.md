@@ -1,8 +1,6 @@
 # automation-with-bash-aws
 # IAM User Management Automation (Bash + AWS CLI)
 
-#  IAM User Management Automation (Bash + AWS CLI)
-
 This project provides a set of Bash scripts to automate the lifecycle of **temporary IAM users** in AWS, including:
 
 - Creating IAM users from a CSV file
@@ -15,12 +13,12 @@ This project provides a set of Bash scripts to automate the lifecycle of **tempo
 
 ##  Project Structure
 iam-user-automation/
-├── users.csv # Input file with usernames and emails
-├── policy.json # Custom IAM policy document
-├── create_users.sh # Script to create IAM users and email credentials
-├── cleanup_users.sh # Script to delete expired IAM users and their credentials
-├── create_users.log # Logs generated during user creation
-├── cleanup_users.log # Logs generated during cleanup
+  - users.csv # Input file with usernames and emails
+  - policy.json # Custom IAM policy document
+  - create_users.sh # Script to create IAM users and email credentials
+  - cleanup_users.sh # Script to delete expired IAM users and their credentials
+  - create_users.log # Logs generated during user creation
+  - cleanup_users.log # Logs generated during cleanup
 
 
 ---
@@ -75,7 +73,7 @@ A verified sender email in SES
 Production SES access or verified recipients
 Update create_users.sh with your sender domain:
 --from "admin@yourdomain.com"
-
+-------------------------------------------------------------------------------
 Notes
 Temporary users are tagged with Purpose=temp-user and ExpiryDate=YYYY-MM-DD.
 
